@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{
+    background-color:#20222f;
+    color: #fefeff;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 25px;
+    height: 130px;
+}
+.sub, .suv{
+    color: #8d93b4;
+}
+.on-off{
+    color: #20222f;
+    background: linear-gradient(to right, #4793d2, #3acf95);
+    height: 24px;
+    padding: 4px;
+    width: 51px;
+    border-radius: 19px;
+    margin-left: 10px;
+    }
+main{
+    background-color: black;
+ height: 1000px;   
+ color: white;
+}
+.top{
+    display: flex;
+    width: 22%;
+    background-color:#252943 ;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.det{
+    display: block;
+    margin: 10px;
+    text-align: center;
+    font-weight: 900;
+}
+.fa-square-facebook{
+	color: #1185e5;
+	margin: 0px;
+}
+.year{
+	font-size: 55px;
+}
+.dash{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    top: -80px;
+    padding-top: 20px;
+}
+.fb{
+font-size: 20px;
+padding-right: 5px;
+}
+.tw{
+    font-size: 20px;
+    padding-right: 5px;
+    color: 1;
+    color: #20a2f5;
+}
+.ig{
+    font-size: 20px;
+    padding-right: 5px;
+    color: #b2948f;
+}
+
+i.fa-brands.fa-inst #b2948fagram.ig {}
+.yt{
+    font-size:20px;
+    margin-right: 5px;
+    color: #252943;
+    background: #cb0128;
+    padding: 5px;
+    border-radius: 50%;
+}
+.top1{
+    border-top: 3px solid #1185e5 ;
+}
+.top2{
+    border-top: 3px solid #20a2f5 ;
+}
+.top3{
+    border-top: 3px solid  #b2948f ;
+}
+.top4{
+    border-top: 3px solid #cb0128 ;
+}
+.followers{
+    color: #6b708d;
+}
+.today{
+    color: #208881;
+}
+.name{
+	color: #828cb0;
+}
+.down{
+    color:red ;
+}
+.view{
+    background-color:#252943 ;
+    height: 130px;
+    width: 22%;
+}
+.upper, .lower{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 9px;
+}
+.lower{
+    margin-top: 56px;
+}
+.overview{
+    color: #8d93b4;
+    font-size: 14px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.num{
+    font-size: 30px;
+    position: relative;
+    font-weight: 900;
+    bottom: 7px;
+    color: #fefeff;
+}
+.gr{
+    color: #208881;
+}
+.rd{
+    color: #cb0128;
+}
+h2{
+    font-size: 30px;
+    margin-left: 25px;
+}
